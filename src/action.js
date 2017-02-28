@@ -17,3 +17,11 @@ export function toggleTodo (id) {
     payload: id
   }
 }
+
+export function logMsg (msg) {
+  console.log(msg);
+  return {
+    type: 'CONSOLE_LOG',
+    payload: null
+  }
+}

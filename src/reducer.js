@@ -7,6 +7,8 @@ const init = List([
   Map({ id: 3, isDone: false, text: 'connect components' })
 ]);
 
+const efini = 12;
+
 export default function (todos=init, action) {
   switch (action.type) {
     case 'ADD_TODO':
